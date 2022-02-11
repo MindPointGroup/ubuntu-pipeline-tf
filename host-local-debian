@@ -1,0 +1,11 @@
+localhost ansible_connection=local setup_audit=true run_audit=true system_is_ec2=true
+
+# all:
+#   hosts:
+#     debian10:
+#   vars:
+#     ansible_connection: local
+#     setup_audit: false
+#     run_audit: false
+#     audit_content: git
+#     audit_git_version: devel

@@ -1,0 +1,12 @@
+#hosts-local for Ubuntu 18 & 20
+
+localhost ansible_connection=local setup_audit=true run_audit=true system_is_ec2=true
+# all:
+#   hosts:
+#     ubuntu20:
+#   vars:
+#     ansible_connection: local
+#     setup_audit: true
+#     run_audit: true
+#     audit_content: git
+#     audit_git_version: devel
