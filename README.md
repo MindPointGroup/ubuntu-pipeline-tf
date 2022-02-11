@@ -3,6 +3,7 @@ UBUNTU Testing
 #
 #
 #
+# George added this from his own repo
 #
 # To use this repo to create the testing environment
 # Execute the following commands - terraform init, terrafrom plan, terrafrom apply -auto-approve
