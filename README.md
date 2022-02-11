@@ -1,6 +1,9 @@
 UBUNTU Testing
 # PIPELINE STIG & CIS for UBUNTU 18 & 20 TESTING
 #
+#
+#
+#
 # To use this repo to create the testing environment
 # Execute the following commands - terraform init, terrafrom plan, terrafrom apply -auto-approve
 
