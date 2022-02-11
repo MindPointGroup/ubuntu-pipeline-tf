@@ -164,7 +164,6 @@ resource "aws_instance" "Ubuntu20" {
       "sudo apt-get update",
       "sudo chmod 755 ~/ansible_setup.sh",
       "sudo ~/ansible_setup.sh -i",
-      "sudo apt install awscli -y",
    ]
   }
 }
