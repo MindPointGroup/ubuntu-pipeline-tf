@@ -43,7 +43,7 @@ ansible-playbook site.yml
 # To get a listing of EC2 resouces within the project
 terrafrom refresh 
 
-# Emamples
+# Examples
 Outputs:
 
 Ubuntu18 = "ssh -i Ubuntu-key.pem ubuntu@ec2-3-89-35-103.compute-1.amazonaws.com"
