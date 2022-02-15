@@ -2,7 +2,6 @@ UBUNTU Testing
 # PIPELINE STIG & CIS for UBUNTU 18 & 20 TESTING
 #
 #
-#
 # George added this from his own repo
 #
 # To use this repo to create the testing environment
@@ -34,6 +33,9 @@ git clone https://github.com/ansible-lockdown/UBUNTU18-CIS.git
 # Edit the site.yml to run on localhost
 
 vi or nano UBUNTU18-CIS/site.yml
+
+#
+#
 - hosts:  localhost
 
 # Run the ansible-playbook against the localhost
